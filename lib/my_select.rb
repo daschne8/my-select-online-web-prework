@@ -7,7 +7,7 @@ def my_select(collection)
     end
     i += 1
   end
-  new_array
+  return new_array
 end
 nums = [1,2,3,4,5]
 array = (my_select(nums) do |num|
