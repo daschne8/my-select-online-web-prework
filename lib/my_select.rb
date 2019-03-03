@@ -2,6 +2,7 @@ def my_select(collection)
   i = 0
   new_array = 0
   while i < collection.length
+    yield collection[i]
     if collection[i].even?
       new_array << collection[i]
     end
