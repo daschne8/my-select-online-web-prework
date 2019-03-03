@@ -9,8 +9,3 @@ def my_select(collection)
   end
   new_array
 end
-
-array = [1,2,3,4,5]
-my_select(array) do |element|
-  element.even?
-end
