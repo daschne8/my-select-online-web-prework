@@ -11,7 +11,6 @@ def my_select(collection)
 end
 nums = [1,2,3,4,5]
 array = (my_select(nums) do |num|
-  puts num
   num.even?
 end)
 puts array
